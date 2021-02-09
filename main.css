@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(86, 135, 184);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#container{
+    width: 70% auto;
+    margin: 10px ;
+}
+
+header{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+    width: 100%;
+    margin:0px auto;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    text-align: justify;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    background: rgb(241, 234, 169);
+    padding: 40px;
+    min-height: 500px;
+    border-image: auto;
+}
+
+.article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid orange;
+}
+
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+footer{
+    background: orange;
+    color: papayawhip;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+}
